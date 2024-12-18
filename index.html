@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمة برمجة المواقع</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #ff6b6b, #f7b7a3);
+            animation: gradientAnimation 5s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background: linear-gradient(45deg, #ff6b6b, #f7b7a3);
+            }
+            50% {
+                background: linear-gradient(45deg, #ff6347, #ffcccb);
+            }
+            100% {
+                background: linear-gradient(45deg, #ff6b6b, #f7b7a3);
+            }
+        }
+
+        h1, h2, p {
+            text-align: center;
+            font-size: 1.5em;
+            color: #fff;
+            margin-top: 30px;
+        }
+
+        .intro-text {
+            color: #fff;
+            text-align: center;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .price-section {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .price-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .price-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .price-card h3 {
+            text-align: center;
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .price-card p {
+            font-size: 1.2em;
+            color: #555;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2980b9;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 1.2em;
+        }
+
+        .link:hover {
+            background-color: #3498db;
+            transform: scale(1.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .why-choose-me {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .why-choose-me h2 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        .why-choose-me p {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>أهلاً بك في خدمة برمجة المواقع</h1>
+        <p class="intro-text">أنا أحمد مبرمج مواقع للتواصل وشراء الخدمة، يمكنك الحصول على خدمات مميزة من خلال الرابط التالي:</p>
+        <a href="https://khamsat.com/programming/custom-website-development/3098370-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%81%D9%82-%D9%88%D8%A8%D8%B1%D9%85%D8%AC%D9%87-%D9%85%D9%88%D8%A7%D9%82%D8%B9-%D8%AE%D8%AF%D9%85%D9%87-%D9%83%D8%A8%D9%8A%D8%B1%D9%87-%D8%A8%D9%85%D8%B5%D8%B1%D9%8A%D9%81-%D8%A7%D9%82%D9%84" class="link">شراء الخدمة الآن من خمسات</a>
+
+        <p class="intro-text">برمجة المواقع هي عملية تصميم وبناء المواقع الإلكترونية باستخدام تقنيات حديثة مثل HTML، CSS، JavaScript، وPHP. من خلال هذه الخدمة، سأساعدك على إنشاء موقع ويب مميز يعكس هويتك أو نشاطك التجاري بشكل احترافي.</p>
+
+        <!-- قسم الخدمات -->
+        <div class="price-section">
+            <div class="price-card">
+                <h3>خدمة صغيرة</h3>
+                <p>5 دولار</p>
+                <p>مدة التنفيذ: يومين</p>
+            </div>
+            <div class="price-card">
+                <h3>خدمة متوسطة</h3>
+                <p>10 دولار</p>
+                <p>مدة التنفيذ: 3 أيام</p>
+            </div>
+            <div class="price-card">
+                <h3>خدمة كبيرة</h3>
+                <p>15 دولار</p>
+                <p>مدة التنفيذ: 4 أيام</p>
+            </div>
+            <div class="price-card">
+                <h3>خدمة مميزة</h3>
+                <p>20 دولار</p>
+                <p>مدة التنفيذ: 5 أيام</p>
+            </div>
+            <div class="price-card">
+                <h3>خدمة احترافية</h3>
+                <p>25 دولار</p>
+                <p>مدة التنفيذ: 7 أيام</p>
+            </div>
+        </div>
+
+        <!-- قسم لماذا تختارني -->
+        <div class="why-choose-me">
+            <h2>لماذا تختارني؟</h2>
+            <p>أنا أحمد، مبرمج مواقع ذو خبرة طويلة في تصميم وتطوير المواقع الإلكترونية. أعمل على تحويل أفكارك إلى واقع باستخدام أحدث التقنيات في المجال. مع ضمان تقديم خدمات بجودة عالية وسرعة في التنفيذ لتلبية كافة احتياجاتك.</p>
+        </div>
+    </div>
+
+</body>
+</html>
